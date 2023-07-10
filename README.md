@@ -25,4 +25,14 @@ The document is about linux command and description
    du -h --max-depth=1 : shows size of each directory.Use --max-depth=1 to limit the output to the current directory and its immediate children
    fdisk : disk partition manipulation command
    
+3. Directory Operations   
+   mkdir directoryname : creates new directory in present working directory
+   rmdir directory name : Deletes a directory
+   cp -r source destination : copies directories recrussively
+   mv olddir newdir : Renames directories
+   find / -type d -name directoryname : Finds a directory starting from root
+
+   
+
+   
    
